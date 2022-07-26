@@ -1,0 +1,287 @@
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+Provider="usb-audio.de"
+DriverVer=08/13/2010,2.8.45
+CatalogFile=pgusbwdm.cat
+
+[SourceDisksNames]
+1="",,0
+
+[SourceDisksFiles]
+pgusbwdm.sys = 1
+
+[Manufacturer]
+%MfgName%=usb-audio.de,NTAMD64
+
+[usb-audio.de.NTAMD64]
+%USB\VID_08BB&PID_29B0.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_29B0 ; Burr-Brown USB Audio Codec 29B0
+%USB\VID_08BB&PID_29B2.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_29B2 ; Burr-Brown USB Audio Codec 29B2
+%USB\VID_08BB&PID_29B3.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_29B3 ; Burr-Brown USB Audio Codec 29B3
+%USB\VID_08BB&PID_29B6.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_29B6 ; Burr-Brown USB Audio Codec 29B6
+%USB\VID_08BB&PID_2910.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2910 ; Burr-Brown USB Audio Codec 2910
+%USB\VID_20B1&PID_0002.DeviceDesc%=USBDRIVER, USB\VID_20B1&PID_0002 ; XMOS-EvalBoard
+%USB\VID_1341&PID_0001.DeviceDesc%=USBDRIVER, USB\VID_1341&PID_0001 ; Lavry DA11
+%USB\VID_04D8&PID_FEEA.DeviceDesc%=USBDRIVER, USB\VID_04D8&PID_FEEA ; Benchmark DAC1 PRE
+%USB\VID_1C07&PID_0101.DeviceDesc%=USBDRIVER, USB\VID_1C07&PID_0101 ; Empirical Audio
+%USB\VID_1852&PID_7022.DeviceDesc%=USBDRIVER, USB\VID_1852&PID_7022 ; Audiotrak Dr.Dac2
+%USB\VID_08BB&PID_29B6.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_29B6 ; Burr-Brown USB Audio Codec 2906b
+%USB\VID_1130&PID_F211.DeviceDesc%=USBDRIVER, USB\VID_1130&PID_F211 ; CMedia Comodow PD554
+%USB\VID_0763&PID_2013.DeviceDesc%=USBDRIVER, USB\VID_0763&PID_2013 ; M-Audio JamLab
+%USB\VID_0D8C&PID_000C.DeviceDesc%=USBDRIVER, USB\VID_0D8C&PID_000C ; C-Media USB Headphone Set
+%USB\VID_0D8C&PID_0008.DeviceDesc%=USBDRIVER, USB\VID_0D8C&PID_0008 ; C-Media USB Audio
+%USB\VID_09AC&PID_D301.DeviceDesc%=USBDRIVER, USB\VID_09AC&PID_D301 ; Digigram UAX220
+%USB\VID_09AC&PID_D401.DeviceDesc%=USBDRIVER, USB\VID_09AC&PID_D401 ; Digigram UAX220-Mic
+%USB\VID_09AC&PID_D501.DeviceDesc%=USBDRIVER, USB\VID_09AC&PID_D501 ; Digigram UAX220v2
+%USB\VID_09AC&PID_D601.DeviceDesc%=USBDRIVER, USB\VID_09AC&PID_D601 ; Digigram UAX220 OEM
+%USB\VID_09AC&PID_D701.DeviceDesc%=USBDRIVER, USB\VID_09AC&PID_D701 ; Digigram UAX220v2 OEM
+%USB\VID_145F&PID_0090.DeviceDesc%=USBDRIVER, USB\VID_145F&PID_0090 ; Trust 510EX
+%USB\VID_03EB&PID_4308.DeviceDesc%=USBDRIVER, USB\VID_03EB&PID_4308 ; Dream DMX3308
+%USB\VID_0A4A&PID_0002.DeviceDesc%=USBDRIVER, USB\VID_0A4A&PID_0002 ; Ploytec AudioJunction
+%USB\VID_0763&PID_2003.DeviceDesc%=USBDRIVER, USB\VID_0763&PID_2003 ; M-Audio Audiophile
+%USB\VID_1346&PID_1001.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1001 ; Mediatek XCORPIO 1
+%USB\VID_1346&PID_1002.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1002 ; Mediatek XCORPIO 2
+%USB\VID_1346&PID_1003.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1003 ; Mediatek XCORPIO 3
+%USB\VID_1346&PID_1004.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1004 ; Mediatek XCORPIO 4
+%USB\VID_1346&PID_1005.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1005 ; Mediatek XCORPIO 5
+%USB\VID_1346&PID_1006.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1006 ; Mediatek XCORPIO 6
+%USB\VID_1346&PID_1007.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1007 ; Mediatek XCORPIO 7
+%USB\VID_1346&PID_1008.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1008 ; Mediatek XCORPIO 8
+%USB\VID_1346&PID_1009.DeviceDesc%=USBDRIVER, USB\VID_1346&PID_1009 ; Mediatek XCORPIO 9
+%USB\VID_1235&PID_0001.DeviceDesc%=USBDRIVER, USB\VID_1235&PID_0001 ; Novation XStation
+%USB\VID_1235&PID_0002.DeviceDesc%=USBDRIVER, USB\VID_1235&PID_0002 ; Novation SpeedIO
+%USB\VID_1235&PID_0005.DeviceDesc%=USBDRIVER, USB\VID_1235&PID_0005 ; Novation XIOSynth 25
+%USB\VID_133E&PID_6000.DeviceDesc%=USBDRIVER, USB\VID_133E&PID_6000 ; Mindprint USBMOD
+%USB\VID_1654&PID_0104.DeviceDesc%=USBDRIVER, USB\VID_1654&PID_0104 ; Mindprint Trio
+%USB\VID_0A4E&PID_4040.DeviceDesc%=USBDRIVER, USB\VID_0A4E&PID_4040 ; Steinberg MI4
+%USB\VID_0A4E&PID_2040.DeviceDesc%=USBDRIVER, USB\VID_0A4E&PID_2040 ; Steinberg MI2
+%USB\VID_06F8&PID_C000.DeviceDesc%=USBDRIVER, USB\VID_06F8&PID_C000 ; Hercules Muse Pocket
+%USB\VID_06F8&PID_B000.DeviceDesc%=USBDRIVER, USB\VID_06F8&PID_B000 ; Hercules DJ Console
+%USB\VID_1210&PID_0001.DeviceDesc%=USBDRIVER, USB\VID_1210&PID_0001 ; Lexicon  Omega
+%USB\VID_1210&PID_0002.DeviceDesc%=USBDRIVER, USB\VID_1210&PID_0002 ; Digitech Omega
+%USB\VID_1210&PID_0003.DeviceDesc%=USBDRIVER, USB\VID_1210&PID_0003 ; Lexicon device
+%USB\VID_1210&PID_0004.DeviceDesc%=USBDRIVER, USB\VID_1210&PID_0004 ; Digitech GMX4
+%USB\VID_077D&PID_0420.DeviceDesc%=USBDRIVER, USB\VID_077D&PID_0420 ; Griffin iMic
+%USB\VID_077D&PID_0223.DeviceDesc%=USBDRIVER, USB\VID_077D&PID_0223 ; Griffin iMic2
+%USB\VID_077D&PID_07AF.DeviceDesc%=USBDRIVER, USB\VID_077D&PID_07AF ; Griffin iMic3
+%USB\VID_077D&PID_041A.DeviceDesc%=USBDRIVER, USB\VID_077D&PID_041A ; Griffin PowerWave
+%USB\VID_0A3F&PID_0001.DeviceDesc%=USBDRIVER, USB\VID_0A3F&PID_0001 ; SwisSonic USBStudio (D)
+%USB\VID_0948&PID_1105.DeviceDesc%=USBDRIVER, USB\VID_0948&PID_1105 ; Media Assistance USB One
+%USB\VID_0948&PID_1110.DeviceDesc%=USBDRIVER, USB\VID_0948&PID_1110 ; Polytec USB One
+%USB\VID_06F1&PID_A011.DeviceDesc%=USBDRIVER, USB\VID_06F1&PID_A011 ; Opcode - SonicPort
+%USB\VID_06F1&PID_A021.DeviceDesc%=USBDRIVER, USB\VID_06F1&PID_A021 ; Opcode - SonicPort Optical
+%USB\VID_06F1&PID_A010.DeviceDesc%=USBDRIVER, USB\VID_06F1&PID_A010 ; Opcode - Datport
+%USB\VID_0582&PID_0006.DeviceDesc%=USBDRIVER, USB\VID_0582&PID_0006 ; Edirol UA30
+%USB\VID_0582&PID_000F.DeviceDesc%=USBDRIVER, USB\VID_0582&PID_000F ; Edirol UA3
+%USB\VID_0582&PID_0018.DeviceDesc%=USBDRIVER, USB\VID_0582&PID_0018 ; Edirol UA1A
+%USB\VID_0582&PID_0019.DeviceDesc%=USBDRIVER, USB\VID_0582&PID_0019 ; Edirol UA1D
+%USB\VID_0582&PID_001A.DeviceDesc%=USBDRIVER, USB\VID_0582&PID_001A ; Edirol UA3D
+%USB\VID_0582&PID_0011.DeviceDesc%=USBDRIVER, USB\VID_0582&PID_0011 ; Edirol UA5D
+%USB\VID_0582&PID_0026.DeviceDesc%=USBDRIVER, USB\VID_0582&PID_0026 ; Edirol UA20
+%USB\VID_0582&PID_0036.DeviceDesc%=USBDRIVER, USB\VID_0582&PID_0036 ; Roland M1000
+%USB\VID_0A92&PID_00C1.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_00C1 ; ESI NeON
+%USB\VID_0A92&PID_0011.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_0011 ; ESI U2A
+%USB\VID_0A92&PID_0061.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_0061 ; ESI U24
+%USB\VID_0A92&PID_0091.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_0091 ; Maya44
+%USB\VID_0926&PID_0100.DeviceDesc%=USBDRIVER, USB\VID_0926&PID_0100 ; SoundDevices USBPre
+%USB\VID_0746&PID_3300.DeviceDesc%=USBDRIVER, USB\VID_0746&PID_3300 ; Onkyo MSEU33
+%USB\VID_0746&PID_3301.DeviceDesc%=USBDRIVER, USB\VID_0746&PID_3301 ; Onkyo MSEU33HB
+%USB\VID_0746&PID_5500.DeviceDesc%=USBDRIVER, USB\VID_0746&PID_5500 ; Onkyo SEU55
+%USB\VID_0746&PID_5502.DeviceDesc%=USBDRIVER, USB\VID_0746&PID_5502 ; Onkyo SEU55X(S)
+%USB\VID_0746&PID_5512.DeviceDesc%=USBDRIVER, USB\VID_0746&PID_5512 ; Onkyo SEU55X(S)
+%USB\VID_0471&PID_0155.DeviceDesc%=USBDRIVER, USB\VID_0471&PID_0155 ; Phillips Aurilium
+%USB\VID_0499&PID_100B.DeviceDesc%=USBDRIVER, USB\VID_0499&PID_100B ; Yamaha UW10
+%USB\VID_0499&PID_1004.DeviceDesc%=USBDRIVER, USB\VID_0499&PID_1004 ; Yamaha UW500
+%USB\VID_041E&PID_3000.DeviceDesc%=USBDRIVER, USB\VID_041E&PID_3000 ; Creative Extigy
+%USB\VID_041E&PID_3010.DeviceDesc%=USBDRIVER, USB\VID_041E&PID_3010 ; Creative Sound Blaster MP3+
+%USB\VID_041E&PID_3020.DeviceDesc%=USBDRIVER, USB\VID_041E&PID_3020 ; Creative USB Audigy
+%USB\VID_041E&PID_3040.DeviceDesc%=USBDRIVER, USB\VID_041E&PID_3040 ; Creative USB Sound Blaster
+%USB\VID_0DBA&PID_1000.DeviceDesc%=USBDRIVER, USB\VID_0DBA&PID_1000 ; Digidesign Mbox
+%USB\VID_0DBA&PID_3000.DeviceDesc%=USBDRIVER, USB\VID_0DBA&PID_3000 ; Digidesign Mbox 2
+%USB\VID_0A92&PID_0021.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_0021 ; ESI Gigaport
+%USB\VID_0A92&PID_0031.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_0031 ; ESI Gigaport AG
+%USB\VID_0A92&PID_0051.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_0051 ; Audiotrak Optoplay
+%USB\VID_0A92&PID_0071.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_0071 ; Audiotrak Maya 7.1
+%USB\VID_0A92&PID_00B1.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_00B1 ; EX 5
+%USB\VID_0A92&PID_0053.DeviceDesc%=USBDRIVER, USB\VID_0A92&PID_0053 ; Optoplay 2
+%USB\VID_0C45&PID_17EF.DeviceDesc%=USBDRIVER, USB\VID_0C45&PID_17EF ; SKNET Digital Sound Station
+%USB\VID_0C45&PID_17FD.DeviceDesc%=USBDRIVER, USB\VID_0C45&PID_17FD ; Audiotrak Maya 5.1 similar to SKNET Digital Sound Station
+%USB\VID_0C45&PID_167F.DeviceDesc%=USBDRIVER, USB\VID_0C45&PID_167F ; Sitecom 5.1 Audio Adapter
+%USB\VID_04BB&PID_0E05.DeviceDesc%=USBDRIVER, USB\VID_04BB&PID_0E05 ; I-O DATA D2VOX
+%USB\VID_08BB&PID_2900.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2900 ; Burr-Brown USB Audio Codec 2900
+%USB\VID_08BB&PID_2901.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2901 ; Burr-Brown USB Audio Codec 2901
+%USB\VID_08BB&PID_2902.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2902 ; Burr-Brown USB Audio Codec 2902
+%USB\VID_08BB&PID_2903.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2903 ; Burr-Brown USB Audio Codec 2903
+%USB\VID_08BB&PID_2904.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2904 ; Burr-Brown USB Audio Codec 2904
+%USB\VID_08BB&PID_2906.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2906 ; Burr-Brown USB Audio Codec 2906
+%USB\VID_08BB&PID_2702.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2702 ; Burr-Brown USB Audio Codec 2702
+%USB\VID_08BB&PID_2704.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2704 ; Burr-Brown USB Audio Codec 2704
+%USB\VID_08BB&PID_2705.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2705 ; Burr-Brown USB Audio Codec 2705
+%USB\VID_08BB&PID_2706.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2706 ; Burr-Brown USB Audio Codec 2706
+%USB\VID_08BB&PID_2707.DeviceDesc%=USBDRIVER, USB\VID_08BB&PID_2707 ; Burr-Brown USB Audio Codec 2707
+%USB\VID_0B45&PID_0001.DeviceDesc%=USBDRIVER, USB\VID_0B45&PID_0001 ; Event EZbus
+%USB\VID_0C7D&PID_000A.DeviceDesc%=USBDRIVER, USB\VID_0C7D&PID_000A ; Elektor USBOne Derivat
+%USB\VID_0C7D&PID_000B.DeviceDesc%=USBDRIVER, USB\VID_0C7D&PID_000B ; Elektor USBOne Derivat
+%USB\VID_0CCD&PID_0028.DeviceDesc%=USBDRIVER, USB\VID_0CCD&PID_0028 ; Terratec Aureon 5.1
+%USB\VID_0CCD&PID_0077.DeviceDesc%=USBDRIVER, USB\VID_0CCD&PID_0077 ; Terratec Aureon Dual USB
+%USB\VID_0CCD&PID_0014.DeviceDesc%=USBDRIVER, USB\VID_0CCD&PID_0014 ; Terratec Phase 26
+%USB\VID_0C6D&PID_0001.DeviceDesc%=USBDRIVER, USB\VID_0C6D&PID_0001 ; Aardvark USB3
+%USB\VID_0010&PID_1101.DeviceDesc%=USBDRIVER, USB\VID_0010&PID_1101 ; HHB Portadisc
+%USB\VID_0451&PID_0002.DeviceDesc%=USBDRIVER, USB\VID_0451&PID_0002 ; TI Audio Codec 0002
+%USB\VID_0451&PID_3200.DeviceDesc%=USBDRIVER, USB\VID_0451&PID_3200 ; TI 3200
+%USB\VID_0C60&PID_0001.DeviceDesc%=USBDRIVER, USB\VID_0C60&PID_0001 ; Apogee MiniME
+%USB\VID_0C60&PID_0002.DeviceDesc%=USBDRIVER, USB\VID_0C60&PID_0002 ; Apogee MiniDAC
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+USBDRIVER.Files.Ext = 10,System32\Drivers
+
+[USBDRIVER]
+AddReg=USBDRIVER.AddReg
+CopyFiles=USBDRIVER.Files.Ext
+
+[USBDRIVER.AddReg]
+HKR,,DevLoader,,"*NTKERN"
+HKR,,NTMPDriver,,pgusbwdm.sys
+
+[USBDRIVER.NT]
+CopyFiles=USBDRIVER.Files.Ext
+AddReg=USBDRIVER.AddReg
+
+[USBDRIVER.NT.Services]
+Addservice = pgusbwdm, 0x00000002, USBDRIVER.AddService
+
+[USBDRIVER.AddService]
+DisplayName    = %USBDRIVER.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\pgusbwdm.sys
+LoadOrderGroup = Base
+
+[USBDRIVER.Files.Ext]
+pgusbwdm.sys
+
+[Strings]
+MfgName="usb-audio.de"
+USBDRIVER.SvcDesc="usb-audio.de driver  (commercial 2.8.45)"
+USB\VID_20B1&PID_0002.DeviceDesc="XMOS eval board (commercial 2.8.45)"
+USB\VID_1341&PID_0001.DeviceDesc="Lavry DA11 (commercial 2.8.45)"
+USB\VID_04D8&PID_FEEA.DeviceDesc="Benchmark DAC1 PRE (commercial 2.8.45)"
+USB\VID_1C07&PID_0101.DeviceDesc="Empirical Audio (commercial 2.8.45)"
+USB\VID_1852&PID_7022.DeviceDesc="Audiotrak Dr.Dac2 (commercial 2.8.45)"
+USB\VID_08BB&PID_29B6.DeviceDesc="Burr-Brown USB Audio Codec 2906b (commercial 2.8.45)"
+USB\VID_1130&PID_F211.DeviceDesc="CMedia Comodow PD554 (commercial 2.8.45)"
+USB\VID_06F8&PID_C000.DeviceDesc="Hercules Muse Pocket (commercial 2.8.45)"
+USB\VID_06F8&PID_B000.DeviceDesc="Hercules DJ Console (commercial 2.8.45)"
+USB\VID_1210&PID_0001.DeviceDesc="Lexicon Omega (commercial 2.8.45)"
+USB\VID_1210&PID_0002.DeviceDesc="Digitech Omega (commercial 2.8.45)"
+USB\VID_1210&PID_0003.DeviceDesc="Lexicon Audio Device (commercial 2.8.45)"
+USB\VID_1210&PID_0004.DeviceDesc="Digitech GMX4 (commercial 2.8.45)"
+USB\VID_077D&PID_0420.DeviceDesc="Griffin iMic (commercial 2.8.45)"
+USB\VID_077D&PID_0223.DeviceDesc="Griffin iMic (commercial 2.8.45)"
+USB\VID_077D&PID_07AF.DeviceDesc="Griffin iMic (commercial 2.8.45)"
+USB\VID_077D&PID_041A.DeviceDesc="Griffin PowerWave (commercial 2.8.45)"
+USB\VID_0A3F&PID_0001.DeviceDesc="SwisSonic USB Studio (commercial 2.8.45)"
+USB\VID_0948&PID_1105.DeviceDesc="Media Assistance USB One (commercial 2.8.45)"
+USB\VID_0948&PID_1110.DeviceDesc="Polytec USB One (commercial 2.8.45)"
+USB\VID_06F1&PID_A011.DeviceDesc="Opcode - SonicPort (commercial 2.8.45)"
+USB\VID_06F1&PID_A021.DeviceDesc="Opcode - SonicPort Optical (commercial 2.8.45)"
+USB\VID_06F1&PID_A010.DeviceDesc="Opcode - Datport (commercial 2.8.45)"
+USB\VID_0582&PID_0006.DeviceDesc="RolandED - UA30 (commercial 2.8.45)"
+USB\VID_0582&PID_000F.DeviceDesc="Edirol - UA3 (commercial 2.8.45)"
+USB\VID_0582&PID_0018.DeviceDesc="Edirol UA-1A (commercial 2.8.45)"
+USB\VID_0582&PID_0019.DeviceDesc="Edirol UA-1D (commercial 2.8.45)"
+USB\VID_0582&PID_001A.DeviceDesc="Edirol UA-3D (commercial 2.8.45)"
+USB\VID_0582&PID_0011.DeviceDesc="Edirol UA-5D (commercial 2.8.45)"
+USB\VID_0582&PID_0026.DeviceDesc="Edirol UA-20 (commercial 2.8.45)"
+USB\VID_0582&PID_0036.DeviceDesc="Roland M1000 (commercial 2.8.45)"
+USB\VID_0A92&PID_00C1.DeviceDesc="ESI - NeON (commercial 2.8.45)"
+USB\VID_0A92&PID_0011.DeviceDesc="ESI - U2A (commercial 2.8.45)"
+USB\VID_0A92&PID_0061.DeviceDesc="ESI - U24 (commercial 2.8.45)"
+USB\VID_0A92&PID_0091.DeviceDesc="Audiotrak Maya 44 (commercial 2.8.45)"
+USB\VID_0926&PID_0100.DeviceDesc="SoundDevices USBPre (commercial 2.8.45)"
+USB\VID_0746&PID_3300.DeviceDesc="Onkyo MSE-U33 (commercial 2.8.45)"
+USB\VID_0746&PID_3301.DeviceDesc="Onkyo MSE-U33HB (commercial 2.8.45)"
+USB\VID_0746&PID_5500.DeviceDesc="Onkyo SE-U55 (commercial 2.8.45)"
+USB\VID_0746&PID_5502.DeviceDesc="Onkyo SE-U55X(S) (commercial 2.8.45)"
+USB\VID_0746&PID_5512.DeviceDesc="Onkyo SE-U55SX (commercial 2.8.45)"
+USB\VID_0471&PID_0155.DeviceDesc="Phillips Aurilium (commercial 2.8.45)"
+USB\VID_0499&PID_100B.DeviceDesc="Yamaha UW10 (commercial 2.8.45)"
+USB\VID_0499&PID_1004.DeviceDesc="Yamaha UW500 (commercial 2.8.45)"
+USB\VID_041E&PID_3000.DeviceDesc="Creative Extigy (commercial 2.8.45)"
+USB\VID_041E&PID_3010.DeviceDesc="Creative Sound Blaster MP3+ (commercial 2.8.45)"
+USB\VID_041E&PID_3020.DeviceDesc="Creative Audigy 2 NX (commercial 2.8.45)"
+USB\VID_041E&PID_3040.DeviceDesc="Creative USB Sound Blaster (commercial 2.8.45)"
+USB\VID_0DBA&PID_1000.DeviceDesc="Digidesign Mbox (commercial 2.8.45)"
+USB\VID_0DBA&PID_3000.DeviceDesc="Digidesign Mbox 2 (commercial 2.8.45)"
+USB\VID_0A92&PID_0021.DeviceDesc="ESI - GIGAPORT (commercial 2.8.45)"
+USB\VID_0A92&PID_0031.DeviceDesc="ESI - GIGAPORT AG (commercial 2.8.45)"
+USB\VID_0A92&PID_0051.DeviceDesc="Audiotrak Optoplay (commercial 2.8.45)"
+USB\VID_0A92&PID_0071.DeviceDesc="Audiotrak EX (commercial 2.8.45)"
+USB\VID_0A92&PID_00B1.DeviceDesc="Audiotrak EX 5(commercial 2.8.45)"
+USB\VID_0A92&PID_0053.DeviceDesc="Audiotrak Optoplay(commercial 2.8.45)"
+USB\VID_0C45&PID_17EF.DeviceDesc="SKNET Digital Sound Station (commercial 2.8.45)"
+USB\VID_0C45&PID_17FD.DeviceDesc="Audiotrak Maya 5.1 (commercial 2.8.45)"
+USB\VID_0C45&PID_167F.DeviceDesc="Sitecom 5.1 Audio Adapter (commercial 2.8.45)"
+USB\VID_04BB&PID_0E05.DeviceDesc="I-O DATA D2VOX (commercial 2.8.45)"
+USB\VID_08BB&PID_2900.DeviceDesc="Burr-Brown USB Audio Codec 2900 (commercial 2.8.45)"
+USB\VID_08BB&PID_2901.DeviceDesc="Burr-Brown USB Audio Codec 2901 (commercial 2.8.45)"
+USB\VID_08BB&PID_2902.DeviceDesc="Burr-Brown USB Audio Codec 2902 (commercial 2.8.45)"
+USB\VID_08BB&PID_2903.DeviceDesc="Burr-Brown USB Audio Codec 2903 (commercial 2.8.45)"
+USB\VID_08BB&PID_2904.DeviceDesc="Burr-Brown USB Audio Codec 2904 (commercial 2.8.45)"
+USB\VID_08BB&PID_2906.DeviceDesc="Burr-Brown USB Audio Codec 2906 (commercial 2.8.45)"
+USB\VID_08BB&PID_2702.DeviceDesc="Burr-Brown USB Audio Codec 2702 (commercial 2.8.45)"
+USB\VID_08BB&PID_2704.DeviceDesc="Burr-Brown USB Audio Codec 2704 (commercial 2.8.45)"
+USB\VID_08BB&PID_2705.DeviceDesc="Burr-Brown USB Audio Codec 2705 (commercial 2.8.45)"
+USB\VID_08BB&PID_2706.DeviceDesc="Burr-Brown USB Audio Codec 2706 (commercial 2.8.45)"
+USB\VID_08BB&PID_2707.DeviceDesc="Burr-Brown USB Audio Codec 2707 (commercial 2.8.45)"
+USB\VID_0B45&PID_0001.DeviceDesc="Event EZbus (commercial 2.8.45)"
+USB\VID_0C7D&PID_000A.DeviceDesc="Elektor USB Audio Device (000A) (commercial 2.8.45)"
+USB\VID_0C7D&PID_000B.DeviceDesc="Elektor USB Audio Device (000B) (commercial 2.8.45)"
+USB\VID_0CCD&PID_0028.DeviceDesc="Terratec Aureon 5.1 (commercial 2.8.45)"
+USB\VID_0CCD&PID_0077.DeviceDesc="Terratec Aureon Dual USB (commercial 2.8.45)"
+USB\VID_0C6D&PID_0001.DeviceDesc="Aardvark USB3 (commercial 2.8.45)"
+USB\VID_1346&PID_1001.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1346&PID_1002.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1346&PID_1003.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1346&PID_1004.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1346&PID_1005.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1346&PID_1006.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1346&PID_1007.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1346&PID_1008.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1346&PID_1009.DeviceDesc="Mediatek XCORPIO (commercial 2.8.45)"
+USB\VID_1235&PID_0001.DeviceDesc="Novation XStation (commercial 2.8.45)"
+USB\VID_1235&PID_0002.DeviceDesc="Novation SpeedIO (commercial 2.8.45)"
+USB\VID_1235&PID_0005.DeviceDesc="Novation XIOSynth 25 (commercial 2.8.45)"
+USB\VID_133E&PID_6000.DeviceDesc="Mindprint USBMOD (commercial 2.8.45)"
+USB\VID_1654&PID_0104.DeviceDesc="Mindprint Trio (commercial 2.8.45)"
+USB\VID_0A4E&PID_4040.DeviceDesc="Steinberg MI4 (commercial 2.8.45)"
+USB\VID_0A4E&PID_2040.DeviceDesc="Steinberg MI2 (commercial 2.8.45)"
+USB\VID_0CCD&PID_0014.DeviceDesc="Terratec Phase 26 (commercial 2.8.45)"
+USB\VID_0763&PID_2003.DeviceDesc="M-Audio Audiophile (commercial 2.8.45)"
+USB\VID_0010&PID_1101.DeviceDesc="HHB PORTADISC (commercial 2.8.45)"
+USB\VID_0451&PID_0002.DeviceDesc="TI Audio Codec 0002 (commercial 2.8.45)"
+USB\VID_0451&PID_3200.DeviceDesc="TI 3200 USB Audio (commercial 2.8.45)"
+USB\VID_0A4A&PID_0002.DeviceDesc="Ploytec AudioJunction (commercial 2.8.45)"
+USB\VID_03EB&PID_4308.DeviceDesc="Dream DMX3308 (commercial 2.8.45)"
+USB\VID_145F&PID_0090.DeviceDesc="Trust 510EX (commercial 2.8.45)"
+USB\VID_09AC&PID_D301.DeviceDesc="Digigram UAX220 (commercial 2.8.45)"
+USB\VID_09AC&PID_D401.DeviceDesc="Digigram UAX220-Mic (commercial 2.8.45)"
+USB\VID_09AC&PID_D501.DeviceDesc="Digigram UAX220v2 (commercial 2.8.45)"
+USB\VID_09AC&PID_D601.DeviceDesc="Digigram UAX220 OEM (commercial 2.8.45)"
+USB\VID_09AC&PID_D701.DeviceDesc="Digigram UAX220v2 OEM (commercial 2.8.45)"
+USB\VID_0D8C&PID_000C.DeviceDesc="C-Media USB Headphone Set (commercial 2.8.45)"
+USB\VID_0D8C&PID_0008.DeviceDesc="C-Media USB Audio (commercial 2.8.45)"
+USB\VID_0C60&PID_0001.DeviceDesc="Apogee MiniME (commercial 2.8.45)"
+USB\VID_0C60&PID_0002.DeviceDesc="Apogee MiniDAC (commercial 2.8.45)"
+USB\VID_0763&PID_2013.DeviceDesc="M-Audio JamLab (commercial 2.8.45)"
+USB\VID_08BB&PID_29B0.DeviceDesc="Burr-Brown USB Audio Codec 29B0 (commercial 2.8.45)"
+USB\VID_08BB&PID_29B2.DeviceDesc="Burr-Brown USB Audio Codec 29B2 (commercial 2.8.45)"
+USB\VID_08BB&PID_29B3.DeviceDesc="Burr-Brown USB Audio Codec 29B3 (commercial 2.8.45)"
+USB\VID_08BB&PID_29B6.DeviceDesc="Burr-Brown USB Audio Codec 29B6 (commercial 2.8.45)"
+USB\VID_08BB&PID_2910.DeviceDesc="Burr-Brown USB Audio Codec 2910 (commercial 2.8.45)"
+ 
